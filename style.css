@@ -12,7 +12,8 @@ ul {
 
 a {
     text-decoration: none;
-    color: inherit;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .container {
@@ -21,23 +22,53 @@ a {
 }
 
 .header {
+    height: 517px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-grow: 1;
+    background-color: #1F2937;
 }
 
 .header-top {
-    width: 600px;
-    max-width: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 30px;
+    padding-top: 10px;
+}
+
+.header-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header-h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 15%;
+    font-weight: 700;
+    background-color: #5560FF;
 }
 
 .header-bottom {
-    width: 600px;
-    max-width: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-grow: 1;
+    gap: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
 
 .header-text {
